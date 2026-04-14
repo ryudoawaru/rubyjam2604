@@ -41,6 +41,15 @@ Here's what I hit.
 -->
 
 ---
+layout: center
+---
+
+<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:1.8rem;">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://rubyjam2604.ryudo.tw&color=464462&bgcolor=ffffff" width="220" height="220" style="border-radius:8px;" />
+  <p style="font-size:1.1rem;font-weight:300;color:#7B7B7B;margin:0;font-family:'Fira Code',monospace;letter-spacing:0.02em;">rubyjam2604.ryudo.tw</p>
+</div>
+
+---
 
 I built a production WebSocket proxy<br>in pure Ruby. No Rails. No Puma.
 
