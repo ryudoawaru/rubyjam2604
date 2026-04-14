@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&family=Fira+Code&display=swap');
+
+/* ── Base ── */
+.slidev-layout {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 300;
+  color: #464462;
+  background: #ffffff;
+}
+
+/* ── Utility ── */
+.accent {
+  color: #F43F5E;
+  font-weight: 400;
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+  background: transparent;
+  color: inherit;
+}
+
+/* ── Hide Slidev UI chrome ── */
+.slidev-controls,
+.slidev-progress,
+.slidev-nav,
+nav.slidev-nav,
+.slidev-icon-btn,
+[class*="slidev-controls"],
+.fixed.bottom-0,
+#slidev-goto-dialog {
+  display: none !important;
+}
+
+/* ── Investigation slide ── */
+.inv-slide { display:flex; flex-direction:column; justify-content:center; height:100%; background:#fff; padding:1.5rem 4rem; gap:1rem; }
+.inv-title { font-size:1.3rem; font-weight:400; color:#464462; }
+.inv-steps { display:flex; flex-direction:column; gap:0.5rem; }
+.inv-step { display:flex; align-items:baseline; gap:1rem; font-size:0.85rem; font-weight:300; color:#464462; padding:0.45rem 0.8rem; border-radius:6px; }
+.inv-label { font-size:0.7rem; font-weight:400; min-width:90px; text-transform:uppercase; letter-spacing:0.04em; flex-shrink:0; }
+.inv-symptom { background:#fff3f5; } .inv-symptom .inv-label { color:#F43F5E; }
+.inv-debug   { background:#f5f5ff; } .inv-debug   .inv-label { color:#6655cc; }
+.inv-search  { background:#f8f8f8; } .inv-search  .inv-label { color:#888; }
+.inv-found   { background:#f5f5ff; } .inv-found   .inv-label { color:#6655cc; }
+.inv-fix     { background:#f0fff4; } .inv-fix     .inv-label { color:#22a06b; }
+.inv-link { color:#7B7B7B; font-size:0.78rem; font-style:italic; }
+.inv-step code { font-family:'Fira Code',monospace; font-size:0.82rem; background:transparent; color:inherit; }
+.inv-caption { font-size:1rem; font-weight:300; color:#7B7B7B; margin-top:0.5rem; border-top:1px solid #e8e8ee; padding-top:0.8rem; }
+
+/* ── Code block background (syntax colors from Shiki one-dark-pro) ── */
+.code-zone pre,
+.code-zone .shiki,
+.code-zone .shiki pre {
+  background-color: #1e1c2e !important;
+  border-radius: 10px;
+}
