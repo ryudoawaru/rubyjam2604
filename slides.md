@@ -137,6 +137,7 @@ layout: default
     <span class="gp-leg-bwd">← server response (img / audio / sync)</span>
   </div>
   <p class="gp-caption">文字協議，雙向傳輸，橋接 WebSocket 和 TCP</p>
+  <a class="gp-ref" href="https://guacamole.apache.org/doc/gug/guacamole-protocol.html" target="_blank">guacamole.apache.org · Guacamole Protocol</a>
 </div>
 
 <style>
@@ -169,6 +170,7 @@ layout: default
 .gp-leg-fwd { color:#464462; }
 .gp-leg-bwd { color:#F43F5E; }
 .gp-caption { font-size:1rem; font-weight:300; color:#7B7B7B; margin:0; }
+.gp-ref { font-size:0.7rem; font-weight:300; color:#aaaabc; text-decoration:none; font-style:italic; }
 </style>
 
 <!--
